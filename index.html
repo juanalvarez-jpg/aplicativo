@@ -99,7 +99,7 @@
       responseDiv.innerHTML = '<span class="loading">Generando respuesta...</span>';
 
       try {
-        const response = await fetch("http://localhost:8000/ai-chat", {
+        const response = await fetch("https://llmclase2026.onrender.com/ai-chat", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
